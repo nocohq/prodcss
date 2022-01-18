@@ -9,6 +9,7 @@
   font-family: "Poppins", sans-serif;
   --web-social-share-brand-font-size: 0;
   --web-social-share-button-font-size: 2rem;
+  --swiper-pagination-color: #f4f8ff;
 }
 
 body {
@@ -38,6 +39,16 @@ body {
   box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1), 0 -15px 35px rgba(0, 0, 0, 0.1),
     0 15px 35px rgba(0, 0, 0, 0.1);
   transition: 0.5s;
+}
+
+.prodSwiper {
+  width: 100%;
+  /* opacity: 0; */
+  height: 80%;
+  top: 20%;
+  right: 0;
+  /* transform: rotate(-20deg); */
+  /* transition: 0.5s; */
 }
 
 .gradients {
@@ -141,11 +152,6 @@ body {
 .prod {
   position: absolute;
   width: 100%;
-  opacity: 0;
-  top: 20%;
-  right: 0;
-  /* transform: rotate(-20deg); */
-  transition: 0.5s;
 }
 
 .prod.show {
