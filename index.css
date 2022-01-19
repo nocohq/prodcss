@@ -278,6 +278,23 @@ body {
   font-size: 0.5rem;
   padding-top: 15px;
 }
+.offscreen {
+  position: absolute;
+  left: -999em;
+}
+.embed {
+  padding: 0.3rem 0.5rem;
+  background-color: #f4f8ff;
+  text-decoration: none;
+  color: #bdbdbd;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 0.8rem;
+  transition: 0.5s;
+  width: 100%;
+  text-align: center;
+}
 .ships {
   text-align: center;
   color: rgb(143, 143, 143);
@@ -449,7 +466,7 @@ body {
 
   .buy {
     padding: 0.5rem 0.8rem;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
 
   .price h1 {
