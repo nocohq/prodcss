@@ -301,7 +301,12 @@ body {
   padding-top: 10px;
   font-size: 0.8rem;
 }
-
+.subscription {
+  text-align: center;
+  color: rgb(143, 143, 143);
+  padding-top: 10px;
+  font-size: 0.8rem;
+}
 .size-container {
   padding: 10px 0;
   margin-bottom: 10px;
